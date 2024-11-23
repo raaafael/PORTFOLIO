@@ -141,16 +141,11 @@ section.especialidades{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* sets the width of the div to 100% of its parent element */
+    width: 100%;
     gap: 30px;
     margin: 30px;
     
 }
-
-
-
-
-
 
 .cardsproject{
     display: grid;
@@ -168,9 +163,6 @@ section.especialidades{
 
 
 }
-
-
-
 
 .linha01{
    margin-top: 10rem;
@@ -217,9 +209,10 @@ section.especialidades{
 .img-port1{
     width: 560px;
     height: 460px;
-    
-    transition: 3s;
+    background-size: cover;
+    background-position: 0% 0%;
     cursor: pointer;
+    transition: 3s;
     border-radius: 20px;
     box-shadow: 0px 0px 40px -20px black;
     position: relative;
@@ -243,7 +236,7 @@ section.especialidades{
     width: 560px;
     height: 460px;
     background-size: cover;
-    background-position: 50% 0%;
+    background-position: 0% 100%;
     transition: 3s;
     cursor: pointer;
     border-radius: 20px;
@@ -255,12 +248,12 @@ section.especialidades{
 .img-port1:hover{
     transform: scale(1.05);
     box-shadow: 0 0 13px rgb(7, 7, 7);
-    background-position: 100% 100%;
+    background-position: 70% 100%;
 }
 .img-port2:hover{
     transform: scale(1.05);
     box-shadow: 0 0 13px rgb(7, 7, 7);
-    background-position: 100% 100%;
+    background-position: 40% 100%;
 }
 .img-port3:hover{
     transform: scale(1.05);
